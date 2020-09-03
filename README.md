@@ -15,7 +15,7 @@ constantly.
 git clone git@github.com:llaniewski/simple_field_tests.git models/test
 ```
 
-### Compile and run:
+### Compile
 
 ```bash
 make -j 16 test01 test02 test03 test04
