@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<CLBConfig version="2.0" output="output/">
+	<Geometry nx="256" ny="256">
+		<MyBox>
+			<Box dx="10" dy="20" nx="30" ny="40"/>
+		</MyBox>
+	</Geometry>
+	<Model>
+		<Param name="Phi" value="0"/>
+		<Param name="MyBoxPhi" value="1"/>
+	</Model>
+	<VTK Iterations="32" what="Phi"/>
+	<Solve Iterations="256"/>
+</CLBConfig>
