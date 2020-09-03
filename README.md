@@ -7,11 +7,23 @@ constantly.
 - `test03` - the field is initialized using zonal settings, and moved with `phi = phi(-1,1)`, but has a unsymmetric access pattern.
 - `test04` - the field is initialized using zonal settings, and moved with a density (accessor) `phi`. Also has a assymetric access pattern.
 
+## Usage
 
-## Compile and run:
+### Clone
+
+```bash
+git clone git@github.com:llaniewski/simple_field_tests.git models/test
+```
+
+### Compile and run:
 
 ```bash
 make -j 16 test01 test02 test03 test04
+```
+
+### Run
+
+```bash
 CLB/test01/main models/test/test01.xml
 CLB/test02/main models/test/test02.xml
 CLB/test03/main models/test/test03.xml
