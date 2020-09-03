@@ -4,8 +4,8 @@ There is a single field phi, which is moved in the direction (1,-1)
 constantly.
 - `test01` - the field is initialized using zonal settings, and moved with `phi = phi(-1,1)`
 - `test02` - the field is initialized using node type, and moved with `phi = phi(-1,1)`
-- `test03` - the field is initialized using zonal settings, and moved with `phi = phi(-1,1)`, but has a unsymmetric access pattern.
-- `test04` - the field is initialized using zonal settings, and moved with a density (accessor) `phi`. Also has a assymetric access pattern.
+- `test03` - the field is initialized using zonal settings, and moved with `phi = phi(-1,1)`, but has an asymmetric access pattern.
+- `test04` - the field is initialized using zonal settings, and moved with a density (accessor) `phi`. Also has an asymmetric access pattern.
 
 ## Usage
 
