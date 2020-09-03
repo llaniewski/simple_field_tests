@@ -12,6 +12,7 @@ constantly.
 ### Clone
 
 ```bash
+cd TCLB
 git clone git@github.com:llaniewski/simple_field_tests.git models/test
 ```
 
